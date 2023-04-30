@@ -20,7 +20,6 @@ function App({ allTasks }) {
   function addTask(name) {
     const newTask = { id: `todo-${nanoid()}`, name, completed: false };
     setTasks([...tasks, newTask]);
-    console.log(tasks);
   }
 
   function editTask(name, id) {
