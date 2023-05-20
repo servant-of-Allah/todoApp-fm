@@ -336,6 +336,7 @@ footer {
   }
 
   .app__header {
+    min-height: 320px;
     background: var(--background-image-desktop) 0 0 / cover no-repeat;
   }
 
